@@ -1,0 +1,75 @@
+.card:hover {
+    transition: all 300ms ease-in-out;
+    box-shadow: 15px 15px 30px -15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.item-price {
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.item-price strike {
+    opacity: 0.7;
+    margin-right: 5px;
+}
+
+.bi-heart,
+.bi-heart-fill{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.bi-heart:hover,
+.bi-heart-fill:hover{
+    color: red;
+}
+
+#card-image-product{
+    height: 250px;
+}
+
+#card-view-image-product{
+    height: 400px;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.381);
+    width: 25px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.select2-container{
+    width: 100% !important;
+}
+
+/* .card {
+    opacity: 1;
+    cursor: pointer;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card:hover {
+    opacity: 1;
+}
+  
+.card:hover .card-body {
+    animation: fadeIn 0.7s ease-in-out;
+}
+  
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */

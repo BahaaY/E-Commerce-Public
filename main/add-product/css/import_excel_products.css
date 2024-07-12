@@ -1,0 +1,14 @@
+.alert{
+    display: none;
+}
+
+#loading{
+    display: none;
+}
+
+#label_file_name{
+    padding-right: 90px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

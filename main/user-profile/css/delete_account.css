@@ -1,0 +1,8 @@
+.alert-danger-delete-account{
+    display: none;
+}
+
+#btn_delete_account:disabled,
+#btn_ask_delete_account:disabled{
+    cursor: wait;
+}

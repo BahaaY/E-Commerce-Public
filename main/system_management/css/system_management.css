@@ -1,0 +1,26 @@
+.alert{
+    display: none;
+}
+
+.form-control:disabled, .form-control[readonly]{
+    background-color: white !important;
+    cursor: default;
+}
+
+.btn-link{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dataTable{
+    width: 100% !important;
+}
+
+.custom-select{
+    width: 60px !important;
+    padding-right: 25px;
+}
+
+.search{
+    border-radius: 0px !important;
+}

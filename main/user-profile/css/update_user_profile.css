@@ -1,0 +1,8 @@
+#alert-danger-user-profile,
+#alert-success-user-profile{
+    display: none;
+}
+
+#btn_update_user_profile:disabled{
+    cursor: wait;
+}

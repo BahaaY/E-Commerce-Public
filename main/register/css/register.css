@@ -1,0 +1,31 @@
+.alert-success,
+.alert-danger{
+    display: none;
+}
+
+.form-group{
+    margin-bottom: 7px;
+}
+
+#btn_register:disabled{
+    cursor: wait;
+}
+
+.input-group-addon{
+    background-color: lightgray;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.input-group-addon:hover{
+    cursor: pointer;
+}
+
+.input-group-addon i:hover{
+    color: #2b67a7;
+    transition: all 200ms ease-in-out;
+}
+
+.select2-container{
+    width: 100% !important;
+}

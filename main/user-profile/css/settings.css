@@ -1,0 +1,8 @@
+#alert-danger-settings,
+#alert-success-settings{
+    display: none;
+}
+
+#btn_save_settings:disabled{
+    cursor: wait;
+}
