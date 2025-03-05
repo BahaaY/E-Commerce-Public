@@ -318,20 +318,30 @@ function print(){
 
     // });
     
-    btn_index=$(".btn-print");
-    source_text_button=btn_index.html();
-    parent_text_button="<div class='spinner-border text-dark'></div>";
+    btn_index = $(".btn-print");
+    source_text_button = btn_index.html();
+    parent_text_button = "<div class='spinner-border text-dark'></div>";
 
     btn_index.html(parent_text_button);
-    btn_index.attr("disabled","disabled");
+    btn_index.attr("disabled", "disabled");
 
-    invoice_type=$(".btn-print").attr("id");
-    order_id=$(".btn-print").attr("order_id");
-    if(invoice_type == "1"){
-        window.location.href="invoice/print_small_invoice.php?order_id="+order_id;
-    }else if(invoice_type == "2"){
-        window.location.href="invoice/print_large_invoice.php?order_id="+order_id;
+    invoice_type = btn_index.attr("id");
+    order_id = btn_index.attr("order_id");
+
+    let url = "";
+    if (invoice_type == "1") {
+        url = "invoice/print_small_invoice.php?order_id=" + order_id;
+    } else if (invoice_type == "2") {
+        url = "invoice/print_large_invoice.php?order_id=" + order_id;
     }
+
+    if (url) {
+        window.open(url, "_blank");
+    }
+
+    btn_index.html(source_text_button);
+    btn_index.removeAttr("disabled");
+
 }
 
 var scrollTop;
